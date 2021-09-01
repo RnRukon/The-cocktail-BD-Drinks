@@ -116,13 +116,13 @@ function drinksDataDetails(data) {
 
         div.innerHTML = `
         
-        <div class=" bg-warning p-5 d-flex justify-content-around  align-items-center rounded-3 " >
+        <div class="row bg-warning p-5  rounded-3 " >
 
-                    <div ">
-                    <img  class="img-fluid w-75 rounded-3" src="${details.strDrinkThumb}" alt="">
+                    <div class="col-sm-12 col-lg-6">
+                    <img  class="img-fluid  rounded-3" src="${details.strDrinkThumb}" alt="">
                     </div>
                   
-                    <div class="ms-3">
+                    <div class="col-sm-12 col-lg-6">
                     <h4>${details.strDrink}</h4>
                     <div>
                     <p>${details.strInstructions}</p>
@@ -170,13 +170,13 @@ function randomDrinksDataDetails(data) {
 
         div.innerHTML = `
         
-        <div class=" bg-warning p-5 d-flex justify-content-around  align-items-center rounded-3 " >
+        <div class="row bg-warning p-5 rounded-3 " >
 
-                    <div ">
-                    <img  class="img-fluid w-75 rounded-3" src="${details.strDrinkThumb}" alt="">
+                    <div class="col-sm-12 col-lg-6">
+                    <img  class="img-fluid  rounded-3" src="${details.strDrinkThumb}" alt="">
                     </div>
                   
-                    <div class="ms-3">
+                    <div class=" col-sm-12 col-lg-6">
                     <h4>${details.strDrink}</h4>
                     <div>
                     <p>${details.strInstructions}</p>
